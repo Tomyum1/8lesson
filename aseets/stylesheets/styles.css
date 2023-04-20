@@ -1,4 +1,4 @@
-.main-card {
+/* .card {
     display: flex;
     background: radial-gradient(2464.13% 850.69% at 100% 6.65%, #bb82db 0%, #636dc1 19.3%, #1d0f35 100%);
     border-radius: 10px;
@@ -15,7 +15,7 @@ height: 215px;
 width: 215px;
 }
 
-.main-card__tytle {
+.main-card__title {
 color: white;
 height: 42px;
 width: 242px;
@@ -60,4 +60,4 @@ text-align: center;
     flex: none;
     order: 1;
     flex-grow: 0;
-}
+} */

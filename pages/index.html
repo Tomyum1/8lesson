@@ -8,18 +8,36 @@
     <title>Things</title>
     <link rel="stylesheet" href="../aseets/stylesheets/styles.css">
     <link rel="stylesheet" href="../aseets/stylesheets/common.css">
+    <link rel="stylesheet" href="../aseets/stylesheets/dist/card.css">
+    <link rel="stylesheet" href="../aseets/stylesheets/dist/buttons.css">
 </head>
 
 <body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, adipisci?</h1>
-    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ducimus?</h2>
-    <div class="main-card">
-        <img src="../img/orange_guy.png" alt="" class="main-card__img">
-        <h5 class="main-card__tytle">Come Down Official Music Video</h5>
-        <span class="maim-card__bid"> <span class="maim-card__bid main-card__minbid">MIN BID </span> <span
-                class="main-card__minbid_price">$1,000.00</span></span>
-        <span class="main-card__BUY NOW">MAX BID <span class="main-card__BUY NOW_price"> $25,000.00</span></span>
-        <BUTTON class="main-card__button">View details</BUTTON>
+    <div class="card">
+        <div class="card__img-block">
+            <img src="../img/orange_guy.png" alt="" class="card__img-block__img">
+        </div>
+        <div class="card__description">
+            <h5 class="card__description-title">Come Down Official Music Video</h5>
+            <span class="card__description-text">
+                <span class="card__description-text--bold"> MIN BID </span>$1,000.00
+            </span>
+            <span class="card__description-text">
+                <span class="card__description-text--bold">MAX BID </span> $25,000.00
+            </span>
+            <button class="button">View details</BUTTON>
+        </div>
+    </div>
+
+    <div class="card card--large">
+        <div class="card__img-block">
+            <img src="../img/black_guy.png" alt="" class="card__img-block__img">
+        </div>
+        <div class="card__description">
+            <h5 class="card__description-title">Triller Verz</h5>
+            <span class="card__description-text--bold card__description-text"> Available listenings:1</span>
+            <button class="button">View all listings</BUTTON>
+        </div>
     </div>
 </body>
 

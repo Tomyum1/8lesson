@@ -17,7 +17,9 @@
     font-style: normal;
 }
 
-
+*{
+    font-family: "SF Pro Text";
+}
 
 h1 {
     font-family: "SF Pro Text";
@@ -77,4 +79,3 @@ h6 {
     font-size: 14px;
     line-height: 140%;
 }
-
