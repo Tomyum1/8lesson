@@ -1,7 +1,7 @@
 .button {
   margin-top: 16px;
   padding: 14px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 37px;
   font-style: normal;
   font-weight: 600;
@@ -10,8 +10,9 @@
   color: purple;
   border: none;
   width: 100%;
-}
-.button:hover {
-  color: white;
-  background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+
+  &:hover {
+    color: white;
+    background: linear-gradient(90deg, #5d00fa 0%, #d70bca 100%);
+  }
 }
