@@ -1,0 +1,19 @@
+.button {
+
+    margin-top: 16px;
+    padding: 14px;
+    background: #FFFFFF;
+    border-radius: 37px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: purple;
+    border: none;
+    width: 100%;
+
+    &:hover {
+        color: white;
+        background: linear-gradient(90deg, #5D00FA 0%, #D70BCA 100%);
+    }
+}
